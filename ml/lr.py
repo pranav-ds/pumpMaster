@@ -48,8 +48,8 @@ def build_lr(X_in,
             if save_cv_plots:
                 # Plot outputs
                 fig = plt.figure()
-                plt.plot(X_in[test_index, 0], y_pred, color='blue', linewidth=3, label="Prediction")
-                plt.plot(X_in[test_index, 0], y_in[test_index], color='red', label="Reality")
+                plt.plot(X_in[test_index, 0], y_pred, color='b', linewidth=3, label="Prediction")
+                plt.plot(X_in[test_index, 0], y_in[test_index], color='r', label="Reality")
 
                 plt.xlabel("Time")
                 plt.ylabel("f(x)")
